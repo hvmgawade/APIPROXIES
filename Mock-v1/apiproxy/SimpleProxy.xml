@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="3" name="SimpleProxy">
+    <Basepaths>/simpleproxy</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1598174539786</CreatedAt>
+    <CreatedBy>amin.nerekar@citiustech.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>SimpleProxy</DisplayName>
+    <LastModifiedAt>1598862364921</LastModifiedAt>
+    <LastModifiedBy>amin.nerekar@citiustech.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:edec70961aba8812a6c30995f6ab8512b1c44f599dcac8920bef391e4e58deda6b2d0af5d42f3449e99a722ad0e5d8c8eb04d482126459f857b23d54d20f68bb</ManifestVersion>
+    <Policies>
+        <Policy>JavaScript-1</Policy>
+        <Policy>QuotaPolicy</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://JavaScript-1.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

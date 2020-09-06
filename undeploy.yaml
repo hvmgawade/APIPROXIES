@@ -1,0 +1,4 @@
+- name: 'gcr.io/cloud-builders/mvn'
+  entrypoint: 'bash'
+  args: ['-c', ' mvn install -Pprod -Dusername=amin.nerekar@citiustech.com -Dpassword='Tarik)1234' -Doptions=clean -Dorg=aminnerekar-eval']
+  dir: 'Mock-v1'

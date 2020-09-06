@@ -1,0 +1,26 @@
+steps:
+#Code Analysis
+- name: node
+  args: ['bash', '-c','npm install apigeelint && npm run apigeelint']
+  dir: 'Mock-v1'
+#Unit Testing
+- name: node
+  args: ['bash', '-c','npm install && npm run unit']
+  dir: 'Mock-v1'
+#Deployment
+- name: 'gcr.io/cloud-builders/mvn'
+  entrypoint: 'bash'
+  args: ['-c', 'mvn install -Pprod -Dusername=amin.nerekar@citiustech.com -Dpassword="Tarik)1234" -Dorg=aminnerekar-eval']
+  dir: 'Mock-v1'
+#Integration
+- name: node
+  entrypoint: 'bash'
+  args: ['./entrypoint.sh']
+  dir: 'Mock-v1'
+
+
+
+  
+
+
+ 

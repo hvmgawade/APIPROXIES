@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Quota xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" async="false" continueOnError="false" enabled="true" name="QuotaPolicy">
+    <DisplayName>QuotaPolicy</DisplayName>
+    <Allow count="2"/>
+    <Interval>1</Interval>
+    <Distributed>true</Distributed>
+    <Synchronous>true</Synchronous>
+    <TimeUnit>minute</TimeUnit>
+</Quota>
